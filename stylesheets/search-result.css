@@ -1,8 +1,8 @@
 .main-container {
   display: flex;
-  padding: 5px 125px;
+  padding: 5px 0 60px;
   color: #4C4C4C;
-  padding-bottom: 60px;
+  width: 100%;
 }
 
 .left-box {

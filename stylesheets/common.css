@@ -6,9 +6,9 @@ body {
 /* For header */
 .header {
     height: 14vh;
-    padding: 5px 125px;
     box-shadow: 0px 0px 10px;
     border-bottom: 1px solid #F5F5F5;
+    width: 100%;
 }
 
 .header-container{
@@ -17,6 +17,8 @@ body {
     height: 100%;
     min-width: 700px;
     width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
 }
 
 .header-top {
@@ -50,12 +52,12 @@ body {
     justify-content: space-between;
     height: 50%;
     line-height: 7vh;
-    /* text-align: center; */
 }
 
 .header-bottom-left {
     display: flex;
     font-weight: bold;
+    min-width: 250px;
 }
 
 .header-bottom-left-item {
@@ -75,6 +77,7 @@ body {
 
 .header-bottom-right {
     display: flex;
+    min-width: 450px;
 }
 
 .header-bottom-right-item a i {
@@ -83,6 +86,15 @@ body {
 
 .header-bottom-right-item {
     margin-left: 30px;
+}
+
+
+
+/* For maincontaints */
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1020px;
 }
 
 
