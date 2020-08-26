@@ -84,3 +84,20 @@ body {
 .header-bottom-right-item {
     margin-left: 30px;
 }
+
+
+
+/* For buttons */
+.red-button {
+    background-color: #EA342D;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.grey-button {
+    background-color: #AAAAAA;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+}
