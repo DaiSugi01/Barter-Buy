@@ -1,0 +1,51 @@
+.flex{
+    background-color: aqua;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.children1{
+    display: flex;
+    width: 600px;
+    height: 30px;
+}
+.children2{
+
+    width: 600px;
+    height: 30px;
+    display: flex;
+    
+
+}
+.children3{
+    background-color: yellow;
+
+    width: 600px;
+    height: 200px;
+}
+.grandchildren1{
+    background-color: rgb(233, 35, 190);
+
+    width: 100px;
+    height: 30px;
+}
+.grandchildren2{
+    background-color: orange;
+
+    width: 100px;
+    height: 30px;
+}
+.grandchildren3{
+    background-color: blue;
+
+    width: 100px;
+    height: 30px;
+}
+.grandchildren4{
+    background-color: red;
+
+    width: 100px;
+    height: 30px;
+}
