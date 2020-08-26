@@ -2,12 +2,13 @@
   display: flex;
   padding: 5px 125px;
   color: #4C4C4C;
+  padding-bottom: 60px;
 }
 
 .left-box {
-  margin-top: 40px;
+  margin-top: 70px;
   font-size: 14px;
-  width: 300px;
+  width: 350px;
 }
 
 .left-box h2 {
@@ -25,6 +26,11 @@
 
 .left-sub-box-search {
   margin-left: 5px;
+  width: 95%;
+  height: 40px;
+  background-color: #F5F5F6;
+  border: 1px solid black;
+  padding-left: 10px;
 }
 
 .radio-flex {
@@ -56,14 +62,20 @@
 }
 
 
+.price-box {
+  min-width: 190px;
+}
+
 .left-sub-box-price{
-  width: 60px;
+  width: 50px;
   height: 30px;
   padding: 10px 0px 10px 20px;
+  background-color: #F5F5F6;
+  border: 1px solid black;
 }
 
 .price-min {
-  margin-left: 10px;
+  margin-left: 2px;
 }
 
 .price-range {
@@ -84,4 +96,44 @@
 
 
 .right-box {
+  width: 100%;
+  margin-left: 40px;
+}
+
+.reslut {
+  text-align: left;
+  font-size: 30px;
+}
+
+.sort-box {
+  text-align: right;
+}
+
+.sort-box select{
+  width: 160px;
+  height: 40px;
+  border-radius: 4px;
+  padding: 0px 10px;
+}
+
+.products-box {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  margin-left: 40px;
+}
+
+.product img {
+  border-radius: 5px;
+  width: 210px;
+  height: 260px;
+}
+
+.page {
+  margin-top: 60px;
+  text-align: center;
 }
