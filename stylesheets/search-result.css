@@ -1,0 +1,13 @@
+.main-container {
+  display: flex;
+  background-color: green;
+  padding: 5px 125px;
+}
+
+.left-box {
+  background-color: blue;
+}
+
+.right-box {
+  background-color: red;
+}
