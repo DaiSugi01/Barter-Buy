@@ -1,94 +1,85 @@
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
-
 body {
-    line-height:1;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
-    display:block;
+/* For header */
+.header {
+    height: 14vh;
+    padding: 5px 125px;
+    box-shadow: 0px 0px 10px;
+    border-bottom: 1px solid #F5F5F5;
 }
 
-nav ul {
-    list-style:none;
+.header-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-width: 700px;
+    width: 100%;
 }
 
-blockquote, q {
-    quotes:none;
+.header-top {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    line-height: 7vh;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
+.header-top-left {
+    min-width: 36px;
+    margin-right: 45px;
+    padding-top: 5px;
 }
 
-a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+.header-top-right {
+    width: 100%;
 }
 
-/* change colours to suit your needs */
-ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
+.header-search {
+    width: 100%;
+    height: 5vh;
+    border-radius: 5px;
+    border: 0;
+    background-color: #F5F5F5;
+    padding-left: 15px;
 }
 
-/* change colours to suit your needs */
-mark {
-    background-color:#ff9;
-    color:#000;
-    font-style:italic;
-    font-weight:bold;
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    line-height: 7vh;
+    /* text-align: center; */
 }
 
-del {
-    text-decoration: line-through;
+.header-bottom-left {
+    display: flex;
+    font-weight: bold;
 }
 
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
+.header-bottom-left-item {
+    margin-right: 30px;
 }
 
-table {
-    border-collapse:collapse;
-    border-spacing:0;
+.header-bottom-left-item a i {
+    color: #EB352D;
+    margin-right: 3px;
 }
 
-/* change border colour to suit your needs */
-hr {
-    display:block;
-    height:1px;
-    border:0;  
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
+.header-link {
+    text-decoration: none;
+    color: #222222;
 }
 
-input, select {
-    vertical-align:middle;
+.header-bottom-right {
+    display: flex;
+}
+
+.header-bottom-right-item a i {
+    margin-right: 3px;
+}
+
+.header-bottom-right-item {
+    margin-left: 30px;
 }
