@@ -2,19 +2,6 @@ body {
   background-color: #F5F5F5;
 }
 
-.header-logo {
-  display: flex;
-  justify-content: space-between;
-  max-width: 250px;
-  min-width: 250px;
-  margin: 50px auto;
-}
-
-.logo-name {
-  margin: auto;
-  font-size: 31px;
-}
-
 .main-container {
   width: 100%;
   background-color: #FFFFFF;
@@ -75,8 +62,4 @@ body {
   font-size: 20px;
   font-weight: bold;
   color: #222222;
-}
-
-.sort-box {
-
 }

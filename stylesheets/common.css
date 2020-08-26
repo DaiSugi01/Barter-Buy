@@ -88,7 +88,19 @@ body {
     margin-left: 30px;
 }
 
-
+.regist-header-logo {
+    display: flex;
+    justify-content: space-between;
+    max-width: 250px;
+    min-width: 250px;
+    margin: 50px auto;
+  }
+  
+  .regist-logo-name {
+    margin: auto;
+    font-size: 31px;
+  }
+  
 
 /* For maincontaints */
 .wrapper {
@@ -103,7 +115,6 @@ body {
     max-width: 700px;
     padding-bottom: 100px;
 }
-
 
 
 /* For buttons */
