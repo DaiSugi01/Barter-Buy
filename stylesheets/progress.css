@@ -98,10 +98,12 @@ ul {
   overflow: hidden;
   width:50%;
 }
+
 .star-rating .star-rating-item:before{
   content:"★★★★★";
   color: #ffcc33;
 }
+
 .star-rating:after {
   content:"★★★★★";
   color: #ccc;
