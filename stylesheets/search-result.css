@@ -35,6 +35,7 @@
 
 .radio-flex {
   display: flex;
+  width: 200px;
 }
 
 .left-sub-box-left-radios {
