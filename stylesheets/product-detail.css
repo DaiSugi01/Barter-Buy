@@ -71,6 +71,31 @@ table tr,table td{
     border: solid 2px rgb(5, 5, 5);
     
 }
+
+.user-faces {
+  display: flex;
+}
+
+.smile {
+
+}
+
+.smile i {
+  color: #EF5185;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.sad {
+
+}
+
+.sad i{
+  margin-left: 20px;
+  color: #6AB5D9;
+  font-weight: bold;
+}
+
 .btn-square {
   display: inline-block;
   padding: 0.5em 1em;
