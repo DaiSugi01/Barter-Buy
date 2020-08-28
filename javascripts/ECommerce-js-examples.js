@@ -71,7 +71,7 @@ let products = {
     let sum = 0;
 
     for (let i = 0; i < arrayOfIDs.length; i++) {
-      sum = sum + products[arrayOfIDs[i]].price;
+      sum += products[arrayOfIDs[i]].price;
     }
 
     return sum
