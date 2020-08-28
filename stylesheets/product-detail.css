@@ -137,7 +137,7 @@ table tr,table td{
   
   }
   
-  /*以下、②左側のコメント*/
+  
   .balloon6 {
     width: 100%;
     margin: 10px 0;
@@ -185,7 +185,7 @@ table tr,table td{
     padding: 0;
   }
   
-  /*以下、③右側の緑コメント*/
+  
   .mycomment {
     margin: 10px 0;
   }
@@ -197,7 +197,7 @@ table tr,table td{
     max-width: 250px;
     border-radius: 12px;
     background: #30e852;
-    font-size: 15px:
+    font-size: 15px;
   }
   
   .mycomment p:after {
@@ -211,7 +211,7 @@ table tr,table td{
     transform: rotate(-35deg);
   }
   #bms_send {
-    background-color:#eee;/*タイムラインの色と同じにする*/
+    background-color:#eee;
     border-right: 1px solid #ddd;
     border-left: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
@@ -219,15 +219,15 @@ table tr,table td{
     padding: 4px;
 }
     #bms_send_message{
-        width: calc(100% - 75px);/*常に送信ボタンの横幅を引いたサイズに動的に計算*/
+        width: calc(100% - 75px);
         line-height: 16px;
         height: 48px;
-        padding: 14px 6px 0px 6px;/*文字がテキストエリアの中心になる様に隙間調整*/
+        padding: 14px 6px 0px 6px;
         border: 1px solid #ccc;
-        border-radius: 4px;/*角丸*/
-        text-align: left;/*文字を左寄せ*/
-        box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.2) inset;/*内側に影を入れてテキストエリアらしくした*/
-        box-sizing: border-box;/*paddingとborderの要素の高さと幅の影響をなくす（要素に高さと幅を含める）*/
+        border-radius: 4px;
+        text-align: left;
+        box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.2) inset;
+        box-sizing: border-box;
 
     }
     #bms_send_btn {
@@ -235,18 +235,18 @@ table tr,table td{
         height: 48px;
         font-size: 16px;
         line-height: 3em;
-        float: right;/*bms_sendに対して右寄せ*/
+        float: right;
         color: black;
         font-weight: bold;
         background: #bcbcbc;
-        text-align: center; /*文字をボタン中央に表示 */
+        text-align: center;
         border: 1px solid #bbb;
-        border-radius: 4px;/*角丸*/
-        box-sizing: border-box;/*paddingとborderの要素の高さと幅の影響をなくす（要素に高さと幅を含める）*/
+        border-radius: 4px;
+        box-sizing: border-box;
     }
     #bms_send_btn:hover {
-        background: #13178E; /*マウスポインタを当てた時にアクティブな色になる*/
-        cursor: pointer;/*マウスポインタを当てた時に、カーソルが指の形になる*/
+        background: #13178E; 
+        cursor: pointer;
     }
     
   
