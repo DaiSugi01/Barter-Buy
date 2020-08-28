@@ -23,4 +23,4 @@ As a user, I want to :
 
 
 # Designs
-[This is designs of Barter & Buy]("https://drive.google.com/file/d/1A4FtUX1UQTSYb8WVBwNhKfZDU56GoNAU/view?usp=sharing")
+[This is designs of Barter & Buy](https://drive.google.com/file/d/1A4FtUX1UQTSYb8WVBwNhKfZDU56GoNAU/view?usp=sharing)
